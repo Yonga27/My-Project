@@ -1,0 +1,222 @@
+/* Header Styles */
+header {
+  background-color: goldenrod; /* Background color */
+  color: bla; /* Text color */
+  padding: 15px /* Add space above and below the header */
+}
+/* Style the subtext */
+i {
+  font-style: italic;
+  font-size: 18px;
+}
+/* Style the icons in the header */
+.fa {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+
+/* Search Input Styles */
+.form-control-input {
+  border: 1px solid #fff; /* Add a white border to the search input */
+  color: #fff; /* Text color for the search input */
+  background-color: #333; /* Background color for the search input */
+}
+
+/* Search Button Styles */
+.btn-outline-success {
+  border-color: #28a745; /* Set the button border color */
+  color: #28a745; /* Text color for the button */
+}
+
+/* Hover effect for links */
+.nav-link:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+.body {
+  background-color: aqua;
+}
+
+  
+  
+  .me-2 {
+    margin-right: 0.5rem !important;
+  }
+  
+  .btn-outline-light {
+    --bs-btn-color: #f8faf8;
+    --bs-btn-border-color: #f8f9fa;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #f8f9fa;
+    --bs-btn-hover-border-color: #f8f9fa;
+    --bs-btn-focus-shadow-rgb: 248, 249, 250;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #f8f9fa;
+    --bs-btn-active-border-color: #f8f9fa;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #f8f9fa;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #f8f9fa;
+    --bs-gradient: none;
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .move-right {
+    width: 200px;
+    /* Set the width of the div */
+    height: 800px;
+    /* Set the height of the div */
+  
+    position: absolute;
+    /* Set the position property to absolute */
+    right: 0;
+    top: right;
+  }
+  
+  .header_links.header_links-primary>ul>li>[data-link] {
+    line-height: var(--line-height-body);
+    position: relative;
+    text-decoration: none;
+  }
+  
+  html:not(.no-js) .navigation__submenu-trigger {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header_links-list>li>a,
+  .header_links-list>li>button {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+  }
+  
+  .fs-navigation-base {
+    font-size: var(--font-size-navigation-base);
+    text-transform: var(--font-navigation-base-text-transform);
+    letter-spacing: var(--font-navigation-base-letter-spacing);
+  }
+  
+  
+  
+  .before {
+    box-sizing: border-box !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .shopify-section {
+    color: rgb(var(--text-color));
+    scroll-margin-top: calc(var(--header-height, 0px) * var(--enable-sticky-header) + var(--announcement-bar-height, 0px) * var(--enable-sticky-announcement-bar));
+  }
+  
+  style attribute {
+    --window-height: 651px;
+    --announcement-bar-height: 51px;
+    --header-height: 101px;
+  
+    --header-height-without-bottom-nav: 101px;
+  }
+  
+  
+  #verticle {
+    color: #000;
+  }
+  /*carousel*/
+.image-container {
+  position: relative;
+}
+.text-overlay {
+  position: absolute;
+  top: 20%; /* Adjust the vertical position as needed */
+  left: 20%; /* Adjust the horizontal position as needed */
+  transform: translate(-50%, -50%); /* Center the text within the container */
+  background-color: rgba(0, 0, 0, 0.7); /* Background color for the text */
+  color: #fff; /* Text color */
+  padding: 10px; /* Add padding to the text for readability */
+  font-size: larger;
+  font-weight: bolder;
+}
+  
+  /* Add your custom styles here */
+  
+  /* Custom styles can be added here */
+  .carousel-caption h3 {
+    text-align: left;
+    margin: 0;
+    /* Remove default margin for better alignment */
+  }
+  
+  
+  #dropdownList {
+    display: none;
+    /* Hide the dropdown initially */
+  }
+  
+  /* Initially hide the dropdown menu */
+  .dropdown-menu {
+    display: none;
+  }
+  
+  /* Show the dropdown menu when the anchor is hovered */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .social-media-icons ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .styled-paragraph {
+    font-size: 18px;
+    /* Set your desired font size */
+    line-height: 1.5;
+    /* Adjust line spacing as needed */
+    text-align: left;
+    /* Align text to the left */
+    color: #333;
+    /* Set your desired text color */
+    margin: 10px 0;
+    /* Adjust margin as needed */
+  }
+  
+  h5 {
+    color: #000;
+  }
+  /* styles.css */
+h3 {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  color: blueviolet;          
+  text-align: center;     /* Center the text within the div */
+  background-color: goldenrod;
+}
+.form-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.label {
+  margin-right: 10px;
+}
+
+.input {
+  order: 1; /* Makes the input appear on the right */
+}
+.CTA {
+  
+  display: flex;
+  justify-content: space-between;
+}
